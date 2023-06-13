@@ -4,6 +4,9 @@
 I was tasked to create a codebase that follows accessibility standards
 for a site to be optimised for search engines.
 
+* Organised layout of CSS file
+* Added Comments to CSS file.
+
 I have added and re-written code to be more optimised such as:
 
 * Changed HTML elements to be semantic and in turn edited the IDs' of the CSS code to include the semantic element changes.
