@@ -1,13 +1,16 @@
+/* Changed the CSS selectors to be in the same semantic order as the HTML document*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Body contains content and selectors of whole page*/
 body {
     background-color: #d9dcd6;
 }
 
+/* Header section contains hyperlinks and lists.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +26,8 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* Changed the following header ids' from 'div' to 'section' to make sure the links connected */
+
+
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -44,12 +48,9 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
-}
+} 
 
-p {
-    font-size: 16px;
-}
-
+/* Hero (Main image at top of screen)*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,9 +60,51 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+/* Main content section 1 (left side of webpage):
+Class, img, and heading 2 selectors.*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
 }
 
 .float-right {
@@ -69,12 +112,28 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
+#search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Main content section 2 (right side of webpage):
+Class, heading 3, and img selectors.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -134,60 +193,12 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+/* Paragraph font size */
+p {
+    font-size: 16px;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-/* Changed the symbol from . to # to show the correct selectors for 'id' */
-#search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer selectors */
 .footer {
     padding: 30px;
     clear: both;
