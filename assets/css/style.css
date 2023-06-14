@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Header section contains hyperlinks and lists.*/
+/* Header section contains selectors for html hyperlinks and lists.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,7 +50,7 @@ a {
     text-decoration: none;
 } 
 
-/* Hero (Main image at top of screen)*/
+/* Hero section contains the selector for the hero image (Main image at top of screen)*/
 .hero {
     height: 800px;
     width: 100%;
