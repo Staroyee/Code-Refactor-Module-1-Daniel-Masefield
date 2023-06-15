@@ -50,7 +50,7 @@ The page was too large to fit onto my screen in one screenshot. I have provided 
 ## License
 MIT License
 
-## Credits
+## Credits / Sources
 https://www.w3schools.com/html/html5_semantic_elements.asp
 https://www.pluralsight.com/guides/semantic-html
 https://web.dev/learn/html/semantic-html/
