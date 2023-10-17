@@ -41,6 +41,9 @@ Steps to install this project on your local PC
 
 To navigate the site click on one of the three different headings in the header at the top of the page to jump to each individual topic.
 
+## Deployed App Link
+https://staroyee.github.io/Code-Refactor-Module-1-Daniel-Masefield/
+
 ## Screenshot
 The page was too large to fit onto my screen in one screenshot. I have provided two screenshots at 90% zoom to make it show the entire page seamlessly through both screenshots.
 
